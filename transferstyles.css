@@ -1,0 +1,188 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(241, 235, 235);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    background-color: rgb(241, 235, 235);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    top: 0;
+    left: 0;
+}
+
+.back {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.back a img {
+    height: 30px;
+    width: 30px;
+}
+
+.icon a {
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.june {
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+.june p {
+    padding: 20px 10px;
+    color: orange;
+}
+
+.form {
+    padding: 20px 90px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form input {
+    padding: 10px;
+    border: none;
+    border-width: 0cap;
+    border-bottom: 1px solid rgb(241, 235, 235);
+}
+
+form select {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(241, 235, 235);
+}
+
+form select option {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 40px;
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.people {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 10px;
+}
+
+.part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.part a {
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.part a img {
+    height: 25px;
+    width: 25px;
+}
+
+.goten img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.inside-types {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.types {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goten {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.goku p {
+    color: gray;
+}
+
+.bank img {
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width: 780px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .back p {
+        font-size: 15px;
+    }
+
+    .june {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .form {
+        padding: 10px 20px;
+    }
+
+    .people {
+        padding: 10px 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .goku h3 {
+        font-size: 12px;
+    }
+
+    .goku p {
+        font-size: 10px;
+    }
+}
